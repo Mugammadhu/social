@@ -1,0 +1,8 @@
+#root{
+  width: 100vw;
+  display: flex;
+  justify-content: center; 
+}
+body{
+  background: linear-gradient(90deg,#2e3192,#1bffff);
+}

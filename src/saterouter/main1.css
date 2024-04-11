@@ -1,0 +1,231 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    width: 600px;
+    background-color: lightcyan;
+    
+}
+.title{
+    background-color: lightblue;
+    padding: 10px;
+    font-size: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav{
+    background-color: gray;
+    padding: 15px;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav form input{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+}
+.nav ul{
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+    
+}
+.nav ul li{
+    list-style-type: none;
+    height: 100%;
+    cursor: pointer;
+    width: 80px;
+   text-align: center;
+   
+}
+.nav ul a{
+    text-decoration: none;
+    color: white;
+    transition:background-color  0.3s ease;
+}
+.nav ul a:hover{
+    background-color: lightskyblue;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+}
+.post{
+    height: 130px;
+    padding: 15px 15px;
+    margin: 0 20px;
+    
+    border-bottom: 2px solid #ccc;
+}
+.postTitle{
+    font-size: 30px;margin-bottom: 3px;
+}
+.postDate{
+    font-size: 14px;
+    font-weight: 600;
+}
+.postBody{
+    font-size: 16px;
+    margin-top: 3px;
+    
+}
+.NewPost{
+    min-height: 400px;
+    padding: 20px;
+}
+.NewPost h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.NewPost form label{
+    display: block;
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.NewPost form input{
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 20px;
+}
+#postBody{
+    height: 100px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid black;
+    font-size: 20px;
+}
+.NewPost form button{
+    display: block;
+    width: 90%;
+    padding: 10px;
+    border-radius: 4px;
+    outline: none;
+    border:none;
+    font-size: 20px;
+    background-color: #8fdd5b;
+    margin-top: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.NewPost form button:hover{
+    background-color: rgb(17, 192, 17);
+    color: #fff;
+}
+.Missing{
+    height: 350px;
+    margin-top: 20px;
+}
+.Missing h1{
+    text-align: center;
+}
+.Missing .box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+    flex-direction: column;
+    font-size: 20px;
+}
+.box p{
+    margin: 10px 0;
+}
+.box a{
+    margin-left: 10px;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.box a:hover{
+    background-color:rgb(66, 187, 228) ;
+    color: #fff;
+}
+.about{
+    height: 300px;
+}
+.about h1{
+    text-align: center;
+    margin: 10px 0px;
+}
+.about .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: inherit;
+    font-size: 25px;
+    text-align: center;
+    padding: 20px;
+}
+.post a{
+    text-decoration: none;
+    color: #000;
+}
+.footer{
+    position: relative;
+    width: inherit;
+
+}
+
+.fixed{
+    position: fixed;
+    bottom: 0; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: lightblue;
+    padding: 10px;
+    width: inherit;
+}
+.newpost{
+    padding: 20px;
+}
+.delbtn{
+    padding: 8px 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: red;
+    color: white;
+    margin-top: 10px;
+}
+.uptbtn{
+    padding: 8px 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    margin-top: 10px; 
+    margin-right: 20px;
+}
+.home1 {
+    margin-top: 10px;
+}
+.home1 a{
+    text-decoration: none;
+}
