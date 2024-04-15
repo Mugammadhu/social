@@ -16,7 +16,23 @@ export const DataProvider = ({children}) => {
   const [postBody, setPostBody] = useState("");
   const [searchResult, setSearchResult] = useState([]);
   const navigate = useNavigate();
-  const [posts, setPosts] = useState([]);
+  const [posts, setPosts] = useState([{
+    "id": "1",
+    "title": "1st post",
+    "description": "march 13 2022 07:23:34 AM",
+    "body": "good morning guys"
+  },{
+    "id": "2",
+    "title": "2st post",
+    "description": "june 15 2023 04:23:34 AM",
+    "body": "good evening guys"
+  },
+  {
+    "id": "3",
+    "title": "3rd post",
+    "description": "november 23 2020 08:22:36 AM",
+    "body": "good night guys"
+  }]);
   const [editTitle, setEditTitle] = useState("");
   const [editBody, setEditBody] = useState("");
   const {width}=useWindowSize()
